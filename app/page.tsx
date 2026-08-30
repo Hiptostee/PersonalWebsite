@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <main className="overflow-hidden bg-ink text-slate-100">
       <section className="relative min-h-[760px] border-b border-white/10">
-        <Image src="/images/joeymarra-city.png" alt="Futuristic city at sunset" fill priority sizes="100vw" className="object-cover object-center" />
+        <Image src="/images/joeymarra-city-clean.png" alt="Futuristic city at sunset" fill priority sizes="100vw" className="object-cover object-center" />
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(3,14,36,.96)_0%,rgba(3,14,36,.78)_38%,rgba(3,14,36,.20)_78%,rgba(3,14,36,.40)_100%)]" />
         <div className="absolute inset-0 bg-[linear-gradient(0deg,rgba(3,14,36,.98)_0%,transparent_44%)]" />
         <div className="relative mx-auto flex min-h-[760px] max-w-7xl flex-col px-6 sm:px-10 lg:px-12">
