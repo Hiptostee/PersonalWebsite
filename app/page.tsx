@@ -94,7 +94,7 @@ export default function Home() {
               </div>
               <div className="mt-8 flex items-center justify-between border-y border-white/10 py-4"><p className="text-base font-bold text-cyan">Software Engineering Intern</p><p className="text-xs font-semibold uppercase tracking-[.14em] text-slate-500">Summer 2026</p></div>
               <p className="mt-7 text-base leading-7 text-slate-300">Built the PrizePicks Wins Feed and led delivery across backend, mobile, product, and analytics.</p>
-              <div className="mt-auto grid grid-cols-3 gap-2 pt-8"><Metric value="115.5%" uncertainty="±28.8%" label="more profile follows" /><Metric value="99.1%" uncertainty="±31.9%" label="more profile presses" /><Metric value="16.3%" uncertainty="±5.5%" label="more profile views" /></div>
+              <div className="mt-auto grid grid-cols-3 gap-2 pt-8"><Metric value="115.5%" label="Followed a Profile" /><Metric value="99.1%" label="Follow Button Pressed" /><Metric value="16.3%" label="Profile Viewed (another user)" /></div>
             </article>
           </div>
         </div>
@@ -113,7 +113,7 @@ function SkillGroup({ title, items }: { title: string; items: string }) { return
 
 function Tag({ text }: { text: string }) { return <span className="rounded-full border border-white/10 bg-white/[.04] px-3 py-1.5 text-[10px] font-bold uppercase tracking-[.12em] text-slate-400">{text}</span>; }
 
-function Metric({ value, uncertainty, label }: { value: string; uncertainty: string; label: string }) { return <div className="rounded-xl border border-violet/20 bg-violet/[.07] p-3 sm:p-4"><p className="text-xl font-bold tracking-[-.04em] text-white sm:text-2xl">+{value}</p><p className="mt-1 text-[10px] font-semibold text-violet">{uncertainty}</p><p className="mt-2 text-[10px] font-semibold uppercase leading-4 tracking-[.09em] text-slate-400">{label}</p></div>; }
+function Metric({ value, label }: { value: string; label: string }) { return <div className="rounded-xl border border-violet/20 bg-violet/[.07] p-3 sm:p-4"><p className="text-2xl font-bold tracking-[-.04em] text-white sm:text-3xl">+{value}</p><p className="mt-2 text-[10px] font-semibold uppercase leading-4 tracking-[.09em] text-slate-400">{label}</p></div>; }
 
 function TechLogo({ icon: Icon, name, color }: { icon: IconType; name: string; color: string }) { return <div className="group flex min-h-28 flex-col items-center justify-center gap-3 rounded-xl border border-white/10 bg-white/[.025] px-3 py-5 transition duration-300 hover:-translate-y-1 hover:border-cyan/40 hover:bg-white/[.055]"><Icon aria-hidden="true" className={`text-3xl transition-transform duration-300 group-hover:scale-110 ${color}`} /><span className="text-center text-[11px] font-semibold text-slate-400 group-hover:text-white">{name}</span></div>; }
 
