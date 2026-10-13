@@ -39,7 +39,7 @@ export default function Home() {
           </nav>
           <div id="top" className="my-auto max-w-3xl pb-24 pt-16 sm:pb-32">
             <p className="mb-6 animate-rise text-xs font-semibold uppercase tracking-[0.22em] text-cyan [animation-delay:100ms]">Robotics · autonomy · systems</p>
-            <h1 className="animate-rise text-5xl font-semibold leading-[.95] tracking-[-0.055em] text-white sm:text-7xl lg:text-8xl [animation-delay:180ms]">Software for <span className="text-amber">autonomous systems.</span></h1>
+            <h1 className="animate-rise text-5xl font-semibold leading-[.95] tracking-[-0.055em] text-white sm:text-7xl lg:text-8xl [animation-delay:180ms]">Software for <span className="text-amber">embdedded / autonomous systems.</span></h1>
             <p className="mt-7 max-w-xl animate-rise text-base leading-7 text-slate-200 sm:text-lg [animation-delay:280ms]">I&apos;m Joseph Marra, a Georgia Tech CS student building robotics software, embedded control systems, and reliable interfaces between them.</p>
             <div className="mt-9 flex animate-rise flex-wrap gap-3 [animation-delay:360ms]">
               <a href="#work" className="group inline-flex items-center rounded-full bg-amber px-5 py-3 text-sm font-bold text-ink transition hover:bg-[#ffd080]">Explore selected work<Arrow /></a>
